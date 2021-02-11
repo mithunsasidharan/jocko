@@ -1,6 +1,7 @@
 # Jocko
 
-[![Build Status](https://semaphoreci.com/api/v1/travisjeffery/jocko/branches/master/shields_badge.svg)](https://semaphoreci.com/travisjeffery/jocko) [![Join the chat at https://gitter.im/travisjeffery/jocko](https://badges.gitter.im/travisjeffery/jocko.svg)](https://gitter.im/travisjeffery/jocko?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![ci](https://github.com/travisjeffery/jocko/workflows/Go/badge.svg)
+[![gitter](https://badges.gitter.im/travisjeffery/jocko.svg)](https://gitter.im/travisjeffery/jocko?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![codecov](https://codecov.io/gh/travisjeffery/jocko/branch/master/graph/badge.svg)](https://codecov.io/gh/travisjeffery/jocko)
 
 Kafka/distributed commit log service in Go.
@@ -32,6 +33,10 @@ Kafka/distributed commit log service in Go.
 - [x] Discovery
 - [ ] API versioning [more API versions to implement]
 - [ ] Replication [first draft done - testing heavily now]
+
+## Hiatus Writing Book
+
+I’m writing a book for PragProg called Building Distributed Services with Go. [You can sign up on this mailing list and get updated when the book’s available.](http://eepurl.com/dC5-l1) It walks you through building a distributed commit log from scratch. I hope it will help Jocko contributors and people who want to work on distributed services.
 
 ## Reading
 
